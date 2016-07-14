@@ -17,20 +17,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button subscribeButton = (Button) findViewById(R.id.subscribeButton);
-        subscribeButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FirebaseMessaging.getInstance().subscribeToTopic("news");
-            }
-        });
+        subscribeButton.setOnClickListener(v ->
+                FirebaseMessaging.getInstance().subscribeToTopic("news"));
 
         Button logTokenButton = (Button) findViewById(R.id.logTokenButton);
-        logTokenButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.e("Token", "InstanceID token: " + FirebaseInstanceId.getInstance().getToken());
-            }
-        });
+        logTokenButton.setOnClickListener(v ->
+                Log.e("Token", "InstanceID token: " + FirebaseInstanceId.getInstance().getToken()));
     }
 
 }
