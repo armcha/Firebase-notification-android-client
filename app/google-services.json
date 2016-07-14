@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "318029472075",
+    "firebase_url": "https://notifiactiontest.firebaseio.com",
+    "project_id": "notifiactiontest",
+    "storage_bucket": "notifiactiontest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318029472075:android:46f1172575a043c0",
+        "android_client_info": {
+          "package_name": "com.luseen.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318029472075-49cojbgcu0shgq3qpfjvhsb529ss4sco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWPPEmOT7R1gdX6aqXzbiVuFrWXQk1oPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318029472075:android:f1a6343d1bcc8b8b",
+        "android_client_info": {
+          "package_name": "com.luseen.firebasenotificationtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318029472075-49cojbgcu0shgq3qpfjvhsb529ss4sco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWPPEmOT7R1gdX6aqXzbiVuFrWXQk1oPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
